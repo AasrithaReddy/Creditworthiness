@@ -32,3 +32,20 @@ import pandas as pd
 file_path = 'creditworthiness.csv'
 ccdefault_causal_df = pd.read_csv(file_path)
 print(ccdefault_causal_df.head())
+```
+
+## 🚀 How to Run
+
+1. Clone the repository or download this notebook.
+2. Make sure you have Python installed with the required libraries (`pandas`).
+3. Place `creditworthiness.csv` in the same directory as the notebook.
+4. Run the notebook cell by cell to explore the analysis.
+
+## 📌 Notes
+
+- Ensure the dataset file is in the correct location.
+- Additional causal inference models (like DoWhy or CausalNex) can be added for deeper analysis.
+
+## 📧 Contact
+
+For questions or collaborations, feel free to reach out!
